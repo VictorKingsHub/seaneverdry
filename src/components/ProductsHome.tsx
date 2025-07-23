@@ -7,9 +7,9 @@ import Link from 'next/link';
 
 const sampleProducts = [
   {
-    id: 'herbal-detox',
+    id: 'ATCO',
     name: 'Ashcord',
-    image: '/images/detox-blend.jpg', // Placeholder image path
+    image: '/ATCO.jpg', // Placeholder image path
     description: 'A powerful blend of natural herbs to cleanse and rejuvenate your body.',
     whatsappMessage: 'Hello SEANEVERDRY, I am interested in your Herbal Detox Blend. Can you tell me more?',
   },
