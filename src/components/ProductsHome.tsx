@@ -22,10 +22,10 @@ const sampleProducts = [
   },
   {
     id: 'immune-booster',
-    name: 'Immune Booster Capsules',
+    name: 'Mcount',
     image: '/dry.jpg', // Placeholder image path
     description: 'Strengthen your natural defenses with our potent immune-boosting herbal capsules.',
-    whatsappMessage: 'Hello SEANEVERUNDRY, I am interested in your Immune Booster Capsules. Can you tell me more?',
+    whatsappMessage: 'Hello SEANEVERDRY, I am interested in your Immune Booster Capsules. Can you tell me more?',
   },
   {
     id: 'skin-glow-elixir',
@@ -37,7 +37,7 @@ const sampleProducts = [
 ];
 
 const ProductsSection = () => {
-  const WHATSAPP_NUMBER = 'YOUR_WHATSAPP_NUMBER_HERE'; // REMEMBER TO REPLACE THIS WITH YOUR NUMBER!
+  const WHATSAPP_NUMBER = '2348033913721'; // REMEMBER TO REPLACE THIS WITH YOUR NUMBER!
 
   return (
     <section className="py-16 bg-gradient-to-br from-green-50 to-white">
