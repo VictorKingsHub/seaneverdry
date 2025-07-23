@@ -11,12 +11,12 @@ const HeroSection = () => {
         {/* Text Content */}
         <div className="text-center md:text-left md:w-1/2 mb-12 md:mb-0 animate-fade-in-up">
           <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-4">
-            Unleash Nature&apos;s Power for <span className="text-green-700">Holistic Wellness</span>
+            Home of Herbal <span className="text-green-700"> Products </span>
           </h1>
           <p className="text-lg md:text-xl text-gray-700 mb-8 max-w-lg mx-auto md:mx-0">
-            Discover SEANEVERDRY&apos;S exquisite range of natural herbal products, crafted to harmonize your body and mind.
+            When People are concerned about their health, they talk to us
           </p>
-          <p className="text-lg md:text-xl text-gray-800 mb-2 font-bold max-w-lg mx-auto md:mx-0">When People are concerned about their health, they talk to us</p>
+
           {/* Call to Action Button */}
           <Link
             href="/products"

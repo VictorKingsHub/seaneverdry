@@ -11,14 +11,14 @@ const sampleProducts = [
     name: 'Ashcord',
     image: '/images/detox-blend.jpg', // Placeholder image path
     description: 'A powerful blend of natural herbs to cleanse and rejuvenate your body.',
-    whatsappMessage: 'Hello SEANEVERUNDRY, I am interested in your Herbal Detox Blend. Can you tell me more?',
+    whatsappMessage: 'Hello SEANEVERDRY, I am interested in your Herbal Detox Blend. Can you tell me more?',
   },
   {
     id: 'calm-comfort-tea',
     name: 'FEB',
     image: '/liv.jpg', // Placeholder image path
     description: 'Soothe your senses with this aromatic tea, perfect for relaxation and stress relief.',
-    whatsappMessage: 'Hello SEANEVERUNDRY, I am interested in your Calm & Comfort Tea. Can you tell me more?',
+    whatsappMessage: 'Hello SEANEVERDRY, I am interested in your Calm & Comfort Tea. Can you tell me more?',
   },
   {
     id: 'immune-booster',
@@ -32,7 +32,7 @@ const sampleProducts = [
     name: 'Skin Glow Elixir',
     image: '/images/skin-elixir.jpg', // Placeholder image path
     description: 'Achieve radiant skin from within with this nourishing herbal elixir.',
-    whatsappMessage: 'Hello SEANEVERUNDRY, I am interested in your Skin Glow Elixir. Can you tell me more?',
+    whatsappMessage: 'Hello SEANEVERDRY, I am interested in your Skin Glow Elixir. Can you tell me more?',
   },
 ];
 
