@@ -6,14 +6,14 @@ import Image from 'next/image'; // Import Next.js Image component for optimizati
 
 const HeroSection = () => {
   return (
-    <section className="relative bg-gradient-to-br from-green-100 to-green-50 min-h-[calc(100vh-64px)] flex items-center justify-center overflow-hidden py-16 md:py-0">
+    <section className="relative bg-gradient-to-br from-green-100 to-green-50 min-h-[calc(100vh-64px)] flex items-center justify-center overflow-hidden px-10 py-16 md:py-0">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between z-10">
         {/* Text Content */}
         <div className="text-center md:text-left md:w-1/2 mb-12 md:mb-0 animate-fade-in-up">
           <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-4">
             Home of Herbal <span className="text-green-700"> Products </span>
           </h1>
-          <p className="text-lg md:text-xl text-gray-700 mb-8 max-w-lg mx-auto md:mx-0">
+          <p className="text-lg md:text-xl text-gray-700 mb-8 max-w-lg mx-auto md:mx-0 font-bold">
             When People are concerned about their health, they talk to us
           </p>
 
