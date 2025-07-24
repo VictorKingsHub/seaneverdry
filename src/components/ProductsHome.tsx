@@ -8,29 +8,29 @@ import Link from 'next/link';
 const sampleProducts = [
   {
     id: 'ATCO',
-    name: 'Ashcord',
+    name: 'ATCO',
     image: '/ATCO.jpg', // Placeholder image path
     description: 'A powerful blend of natural herbs to cleanse and rejuvenate your body.',
     whatsappMessage: 'Hello SEANEVERDRY, I am interested in your Herbal Detox Blend. Can you tell me more?',
   },
   {
-    id: 'calm-comfort-tea',
-    name: 'FEB',
-    image: '/liv.jpg', // Placeholder image path
+    id: 'CALVIT',
+    name: 'CALVIT',
+    image: '/CALVIT.jpg', // Placeholder image path
     description: 'Soothe your senses with this aromatic tea, perfect for relaxation and stress relief.',
     whatsappMessage: 'Hello SEANEVERDRY, I am interested in your Calm & Comfort Tea. Can you tell me more?',
   },
   {
-    id: 'immune-booster',
-    name: 'Mcount',
-    image: '/dry.jpg', // Placeholder image path
+    id: 'K19',
+    name: 'K19',
+    image: '/K19.jpg', // Placeholder image path
     description: 'Strengthen your natural defenses with our potent immune-boosting herbal capsules.',
     whatsappMessage: 'Hello SEANEVERDRY, I am interested in your Immune Booster Capsules. Can you tell me more?',
   },
   {
-    id: 'skin-glow-elixir',
-    name: 'Skin Glow Elixir',
-    image: '/images/skin-elixir.jpg', // Placeholder image path
+    id: 'USROLL',
+    name: 'USROLL',
+    image: '/USROLL.jpg', // Placeholder image path
     description: 'Achieve radiant skin from within with this nourishing herbal elixir.',
     whatsappMessage: 'Hello SEANEVERDRY, I am interested in your Skin Glow Elixir. Can you tell me more?',
   },
