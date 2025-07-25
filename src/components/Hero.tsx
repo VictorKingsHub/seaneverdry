@@ -10,6 +10,9 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between z-10">
         {/* Text Content */}
         <div className="text-center md:text-left md:w-1/2 mb-12 md:mb-0 animate-fade-in-up">
+          <p className="text-lg md:text-xl text-gray-700  max-w-lg mx-auto md:mx-0 font-bold">
+            Welcome to Sea Never Dry Services Ventures
+          </p>
           <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-4">
             Home of Herbal <span className="text-green-700"> Products </span>
           </h1>
@@ -30,7 +33,7 @@ const HeroSection = () => {
         <div className="relative w-full md:w-1/2 flex justify-center items-center animate-fade-in-right">
           <div className="relative w-[300px] h-[300px] md:w-[450px] md:h-[450px] lg:w-[550px] lg:h-[550px] rounded-full overflow-hidden shadow-2xl bg-white p-4 flex items-center justify-center animate-pulse-glow">
             <Image
-              src="/dry.jpg" // The generated image URL
+              src="/hero.png" // The generated image URL
               alt="SeaNeverDry Herbal Product"
               layout="fill" // Fills the parent div
               objectFit="contain" // Ensures the image is fully visible

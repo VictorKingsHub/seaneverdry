@@ -22,28 +22,7 @@ const testimonials = [
     location: 'Abuja, Nigeria',
     review: 'I have been using K19 for months, and I have noticed a significant improvement in my overall immunity. It is a natural way to stay healthy.',
     rating: 4,
-  },
-  {
-    id: 4,
-    name: 'Sarah L.',
-    location: 'Toronto, Canada',
-    review: 'The USROLL elixir gave my skin a glow I have not seen in years! It feels amazing knowing I am nourishing my body with pure ingredients.',
-    rating: 5,
-  },
-  {
-    id: 5,
-    name: 'David O.',
-    location: 'Accra, Ghana',
-    review: 'Impressed with the quality and effectiveness of SeaNeverDry\'s products. Their commitment to natural wellness is evident in every blend.',
-    rating: 5,
-  },
-  {
-    id: 6,
-    name: 'Grace A.',
-    location: 'Port Harcourt, Nigeria',
-    review: 'Initially skeptical, but ATCO quickly proved me wrong. More energy, clearer mind. This brand delivers!',
-    rating: 5,
-  },
+  }
 ];
 
 const TestimonialsSection: React.FC = () => {

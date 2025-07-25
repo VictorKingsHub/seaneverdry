@@ -1,3 +1,4 @@
+import CtaSection from '@/components/CtaSection'
 import FaqSection from '@/components/FaqSection'
 import HeroSection from '@/components/Hero'
 import ProductsSection from '@/components/ProductsHome'
@@ -10,6 +11,7 @@ const page = () => {
     <div>
       <HeroSection />
       <ProductsSection />
+      <CtaSection />
       <WhyChooseUsSection />
       <FaqSection />
       <TestimonialsSection />
