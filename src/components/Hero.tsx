@@ -31,7 +31,7 @@ const HeroSection = () => {
           <div className="relative w-[300px] h-[300px] md:w-[450px] md:h-[450px] lg:w-[550px] lg:h-[550px] rounded-full overflow-hidden shadow-2xl bg-white p-4 flex items-center justify-center animate-pulse-glow">
             <Image
               src="/dry.jpg" // The generated image URL
-              alt="SEANEVERUNDRY Herbal Product"
+              alt="SeaNeverDry Herbal Product"
               layout="fill" // Fills the parent div
               objectFit="contain" // Ensures the image is fully visible
               className="rounded-full transform transition-transform duration-1000 ease-in-out hover:scale-105"

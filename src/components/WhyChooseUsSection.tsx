@@ -1,31 +1,30 @@
 'use client';
 
 import React from 'react';
-// Assuming you have lucide-react or similar for icons.
-// If not, remove the imports and replace the icon components with placeholders (e.g., simple <div> elements).
-import { Leaf, Heart, ShieldCheck, Gem } from 'lucide-react'; 
+// Import icons from react-icons/fa
+import { FaLeaf, FaHeart, FaShieldAlt, FaGem } from 'react-icons/fa'; 
 
 const benefits = [
   {
-    icon: Leaf, // Represents natural ingredients
+    icon: FaLeaf, // Represents natural ingredients
     title: 'Pure & Potent Natural Ingredients',
     description:
       'We source only the finest herbs and botanicals, ensuring every SeaNeverDry product is packed with the unadulterated power of nature.',
   },
   {
-    icon: ShieldCheck, // Represents quality & safety
+    icon: FaShieldAlt, // Represents quality & safety
     title: 'Uncompromising Quality & Safety',
     description:
       'Our products undergo rigorous testing and adhere to the highest quality standards, guaranteeing purity, safety, and effectiveness you can trust.',
   },
   {
-    icon: Heart, // Represents holistic wellness
+    icon: FaHeart, // Represents holistic wellness
     title: 'Holistic Approach to Wellness',
     description:
       'We believe in nurturing your body, mind, and spirit. Our formulations are crafted to support your overall well-being and natural balance.',
   },
   {
-    icon: Gem, // Represents premium value/effective results
+    icon: FaGem, // Represents premium value/effective results
     title: 'Time-Tested Traditional Formulations',
     description:
       'Drawing on ancient wisdom and modern science, our blends are meticulously created to deliver tangible results and support your health journey.',
@@ -49,6 +48,7 @@ const WhyChooseUsSection: React.FC = () => {
               key={index}
               className="bg-white rounded-lg shadow-xl p-8 flex flex-col items-center text-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
             >
+              {/* React-icons components are rendered directly */}
               {benefit.icon && (
                 <benefit.icon className="text-green-600 w-12 h-12 mb-6" />
               )}
