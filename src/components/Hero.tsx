@@ -1,11 +1,11 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image'; // Import Next.js Image component for optimization
+import Image from 'next/image'; 
 
 const HeroSection = () => {
   return (
-    <section className="relative bg-gradient-to-br from-green-100 to-green-50 min-h-[calc(100vh-64px)] flex items-center justify-center overflow-hidden px-10 py-16 md:py-0">
+    <section className="relative bg-gradient-to-br from-green-100 to-green-50 min-h-[calc(100vh-64px)] flex items-center justify-center overflow-hidden md:px-10  md:py-16  py-24 px-2">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between z-10">
         {/* Text Content */}
         <div className="text-center md:text-left md:w-1/2 mb-12 md:mb-0 animate-fade-in-up">
@@ -13,7 +13,7 @@ const HeroSection = () => {
             Welcome to Sea Never Dry Services Ventures
           </p>
           <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-4">
-            Home of Herbal <span className="text-green-700"> Products </span>
+            The Home of Herbal <span className="text-green-700"> Products </span>
           </h1>
           <p className="text-lg md:text-xl text-gray-700 mb-8 max-w-lg mx-auto md:mx-0 font-bold">
             When People are concerned about their health, they talk to us
@@ -22,7 +22,7 @@ const HeroSection = () => {
           {/* Call to Action Button */}
           <Link
             href="/products"
-            className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full text-lg shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out"
+            className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full md:text-lg text-sm shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out"
           >
             Explore Our Herbal Collection
           </Link>

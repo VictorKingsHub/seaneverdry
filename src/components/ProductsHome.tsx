@@ -40,9 +40,9 @@ const ProductsSection = () => {
   const WHATSAPP_NUMBER = '2348033913721'; // REMEMBER TO REPLACE THIS WITH YOUR NUMBER!
 
   return (
-    <section className="py-16 bg-gradient-to-br from-green-50 to-white">
+    <section className="md:py-16 py-5 bg-gradient-to-br from-green-50 to-white">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+        <h2 className="text-2xl md:text-5xl font-bold text-gray-800 mb-6">
           Our Pure Herbal Offerings
         </h2>
         <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-12">
@@ -70,7 +70,7 @@ const ProductsSection = () => {
                     href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(product.whatsappMessage)}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-full transition-colors duration-300 text-base shadow-md hover:shadow-lg"
+                    className="inline-flex items-center justify-center bg-green-600 hover:bg-green-700 text-white font py-2 px-4 rounded-full transition-colors duration-300 text-base shadow-md hover:shadow-lg"
                   >
                     {/* <FaWhatsapp className="mr-2" /> Uncomment if using react-icons */}
                     DM on WhatsApp
