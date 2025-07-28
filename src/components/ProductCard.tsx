@@ -1,19 +1,14 @@
 // src/app/products/page.tsx
+'use client'; // This page needs client-side interactivity for the search filter
 
-'use client'; 
-
-import React, { useState } from 'react'; 
+import React, { useState } from 'react'; // Import useState for managing search input state
 import Image from 'next/image';
-import Link from 'next/link'; 
+import Link from 'next/link';
+// Import the products data and interface from the data file
 import { products, Product } from '@/data/products'; 
 
-// Component for a single product card
+// Component for a single product card (this remains unchanged)
 const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
-  const whatsappMessage = encodeURIComponent(
-    `Hello, I am interested in ${product.name}, which costs ₦${product.price.toLocaleString()}. I would like to know more.`
-  );
-  const whatsappLink = `https://wa.me/2348033913721?text=${whatsappMessage}`; 
-
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
       {/* Product Image */}
@@ -21,14 +16,12 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
         <Image
           src={product.imageUrl}
           alt={product.name}
-          // --- REMOVED: layout="fill" and objectFit="contain" ---
-          // --- ADDED: fill prop and style for objectFit ---
-          fill // This prop makes the image fill its parent, which must be 'relative'
-          style={{ objectFit: 'contain' }} // Apply object-fit as inline style
-          className="p-4" 
+          layout="fill" // Ensures the image fills the container
+          objectFit="contain" // Keeps the image's aspect ratio, fitting it within the container
+          className="p-4" // Adds some internal padding for the image inside the card
         />
       </div>
-      {/* Product Details (rest of the component is unchanged) */}
+      {/* Product Details */}
       <div className="p-6">
         <h3 className="text-2xl font-semibold text-gray-900 mb-2">{product.name}</h3>
         <p className="text-sm text-green-700 font-medium mb-2">{product.category}</p>
@@ -37,31 +30,36 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
         </p>
         <div className="flex justify-between items-center mb-4">
           <span className="text-green-800 text-xl font-bold">₦{product.price.toLocaleString()}</span>
-          
+          {/* Link to a potential product detail page */}
           <Link 
-            href={whatsappLink}
-            target="_blank" 
-            rel="noopener noreferrer" 
+            href={`/products/${product.id}`} // This assumes you'll create dynamic routes like /products/atco-001
             className="bg-green-600 text-white font-bold py-2 px-4 rounded-full text-sm hover:bg-green-700 transition-colors duration-300"
           >
-            Order Here 
+            View Details
           </Link>
         </div>
+        {/* You could add a quick "Add to Cart" button here if desired */}
       </div>
     </div>
   );
 };
 
-// Main Products Page Component (remains unchanged)
+// Main Products Page Component
 const ProductsPage: React.FC = () => {
+  // State to hold the current value of the search input
   const [searchQuery, setSearchQuery] = useState('');
 
+  // Filter the products based on the search query
   const filteredProducts = products.filter(product => {
     const lowerCaseQuery = searchQuery.toLowerCase();
     return (
+      // Search by product name
       product.name.toLowerCase().includes(lowerCaseQuery) ||
+      // Search by short description
       product.shortDescription.toLowerCase().includes(lowerCaseQuery) ||
+      // Search by category
       product.category.toLowerCase().includes(lowerCaseQuery) ||
+      // Search by ingredients (checks if any ingredient includes the query)
       product.ingredients.some(ingredient => ingredient.toLowerCase().includes(lowerCaseQuery))
     );
   });
@@ -76,16 +74,19 @@ const ProductsPage: React.FC = () => {
           Explore SeaNeverDry&apos;s diverse range of natural herbal products, crafted to enhance your well-being.
         </p>
 
-        <div className="mb-12 max-w-lg mx-auto">
+        {/* --- Search Filter Input - Placed before the products grid --- */}
+        <div className="mb-12 max-w-lg mx-auto"> {/* Centering the search bar */}
           <input
             type="text"
             placeholder="Search products by name, description, category, or ingredient..."
             className="w-full p-3 pl-4 border border-gray-300 rounded-full shadow-sm focus:ring-green-500 focus:border-green-500 text-gray-800 outline-none"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
+            value={searchQuery} // Binds the input value to the state
+            onChange={(e) => setSearchQuery(e.target.value)} // Updates state on change
           />
         </div>
+        {/* --- End Search Filter Input --- */}
 
+        {/* Display products in a responsive grid */}
         {filteredProducts.length === 0 ? (
           <p className="text-center text-gray-600 text-xl">
             {searchQuery 

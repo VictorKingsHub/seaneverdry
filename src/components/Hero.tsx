@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const HeroSection = () => {
   return (
-    <section className="relative bg-gradient-to-br from-green-100 to-green-50 min-h-[calc(100vh-64px)] flex items-center justify-center overflow-hidden md:px-10  md:py-16  py-24 px-2">
+    <section className="bg-gradient-to-br from-green-100 to-green-50 min-h-[calc(100vh-64px)] flex items-center justify-center overflow-hidden md:px-10  md:py-16  py-24 px-2">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between z-10">
         {/* Text Content */}
         <div className="text-center md:text-left md:w-1/2 mb-12 md:mb-0 animate-fade-in-up">

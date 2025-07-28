@@ -1,5 +1,6 @@
 'use client'; // This component uses client-side interactivity (e.g., button clicks)
 
+import Link from 'next/link';
 import React from 'react';
 // import Link from 'next/link'; // Uncomment and use for actual navigation
 
@@ -17,14 +18,14 @@ const CtaSection: React.FC = () => {
         </p>
         {/* The primary call to action button */}
         {/* In a real application, you would wrap this in a <Link href="/products"> */}
-        <button
-          onClick={() => console.log('CTA button clicked - navigate to products')}
+        <Link 
+          href="/products"
           className="bg-white text-green-700 font-bold py-3 px-8 rounded-full text-lg md:text-xl
                      shadow-lg hover:bg-green-100 hover:scale-105 transition-all duration-300
-                     focus:outline-none focus:ring-4 focus:ring-green-300 focus:ring-opacity-75"
+                     focus:outline-none focus:ring-4 focus:ring-green-300 focus:ring-opacity-75 pointer"
         >
           Explore Our Natural Blends
-        </button>
+        </Link>
         {/* Example if using Next.js Link for navigation:
         <Link href="/products" passHref legacyBehavior>
           <a className="bg-white text-green-700 font-bold py-3 px-8 rounded-full text-lg md:text-xl
