@@ -33,7 +33,7 @@ const Navbar = () => {
             className="rounded-full mr-2" // Optional: add some styling for the image
           />
           {/* You can keep the text here if you want both image and text logo, or remove it */}
-          <span className="text-white text-2xl font-bold">Seaneverdry</span>
+          <span className="text-white text-2xl font-bold">SeaNeverDry</span>
         </Link>
 
         {/* Mobile menu button (Hamburger icon) - visible on small screens */}
