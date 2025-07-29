@@ -65,8 +65,8 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'calvit', 
-    name: 'Calvit', // Renamed slightly for clarity
+    id: 'calvitt', 
+    name: 'Calvitt', // Renamed slightly for clarity
     category: 'Herbal Elixir',
     shortDescription: 'Calvitt gives strong bone and vitamins A, C, and K.',
     price: 15000, // Slightly different price for variation
