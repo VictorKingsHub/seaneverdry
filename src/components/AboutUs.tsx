@@ -6,7 +6,7 @@ import Link from 'next/link';   // For navigation to other relevant pages
 
 const AboutUsSection: React.FC = () => {
   return (
-    <section className="py-16 md:py-35 bg-gradient-to-br from-green-50 to-white" id="about-us">
+    <section className="py-30 md:py-35 bg-gradient-to-br from-green-50 to-white" id="about-us">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-center gap-12">
           {/* Image Section */}
