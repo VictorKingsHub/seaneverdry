@@ -14,7 +14,7 @@ const AboutUsSection: React.FC = () => {
           <div className="w-full md:w-1/2 flex justify-center animate-fade-in-left">
             <div className="relative w-full max-w-lg h-80 md:h-96 lg:h-[450px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/about-us.jpg" // Placeholder: You'll need to add an image like this in your /public directory
+                src="/logologo.jpg" // Placeholder: You'll need to add an image like this in your /public directory
                 alt="SeaNeverDry's Commitment to Natural Health"
                 layout="fill"
                 objectFit="cover" // Covers the area, cropping if necessary

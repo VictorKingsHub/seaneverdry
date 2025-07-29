@@ -20,7 +20,7 @@ const MissionVisionSection: React.FC = () => {
             <FaLeaf className="text-green-600 w-12 h-12 mx-auto mb-6" /> {/* Icon for Mission */}
             <h3 className="text-3xl font-bold text-gray-800 mb-4">Our Mission</h3>
             <p className="text-lg text-gray-700 leading-relaxed">
-              To empower individuals to achieve optimal health and vitality through expertly crafted, natural herbal products, fostering a holistic approach to well-being.
+              Helping people live their best lives by providing effective and safe supplements that support overall health and well-being
             </p>
           </div>
 
@@ -29,7 +29,7 @@ const MissionVisionSection: React.FC = () => {
             <FaLightbulb className="text-yellow-500 w-12 h-12 mx-auto mb-6" /> {/* Icon for Vision */}
             <h3 className="text-3xl font-bold text-gray-800 mb-4">Our Vision</h3>
             <p className="text-lg text-gray-700 leading-relaxed">
-              To be the leading global provider of trusted, sustainable, and effective herbal wellness solutions, enriching lives and promoting harmony with nature.
+              To positively impact the health and well-being of people in africa through our high quality supplements and commitment to excellence.
             </p>
           </div>
         </div>
