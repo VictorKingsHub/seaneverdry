@@ -152,7 +152,7 @@ export const products: Product[] = [
     id: 'kia4small', 
     name: 'Kia4', // Renamed slightly for clarity
     category: 'Beauty & Wellness',
-    shortDescription: 'kia4 small size.',
+    shortDescription: 'KIA4 is a natural supplement to reduce stress. boost energy and memory.',
     price: 10000, // Different price
     imageUrl: '/kia4.png', // Reusing image, but ideally unique
     benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
