@@ -18,10 +18,10 @@ export interface Product {
 // You will expand this with all your 33+ products!
 export const products: Product[] = [
   {
-    id: 'Ashcord',
-    name: 'Ashcord',
+    id: 'ASHCORD',
+    name: 'ASHCORD',
     category: 'Herbal Supplement',
-    shortDescription: 'Ashcord treat, prevent stroke and best for general body maintenance',
+    shortDescription: 'ASHCORD treat, prevent stroke and best for general body maintenance',
     price: 20000, // Example price in NGN
     imageUrl: '/ashcord.png', // Make sure you place your product images in the 'public/images/products/' folder
     benefits: ['Increased Energy', 'Improved Focus', 'Natural Vitality', 'Reduced Fatigue'],
@@ -29,10 +29,10 @@ export const products: Product[] = [
     ingredients: ['Premium Ginseng Extract', 'Organic Moringa Leaf', 'Pure Ashwagandha Root'],
   },
   {
-    id: 'Atco',
-    name: 'Atco',
+    id: 'ATCO',
+    name: 'ATCO',
     category: 'Herbal Tea',
-    shortDescription: 'Atco treat arthritis, back pain, waist pain and knee pain..',
+    shortDescription: 'ATCO treat arthritis, back pain, waist pain and knee pain..',
     price: 7000,
     imageUrl: '/atco.png',
     benefits: ['Stress Relief', 'Improved Sleep Quality', 'Calming Effect', 'Muscle Relaxation'],
@@ -41,10 +41,10 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'beatchol', 
-    name: 'Beatchol',
+    id: 'BEATCHOL', 
+    name: 'BEATCHOL',
     category: 'Herbal Elixir',
-    shortDescription: 'Beatchol treats and lowers high cholesterol and gives better digestion',
+    shortDescription: 'BEATCHOL treats and lowers high cholesterol and gives better digestion',
     price: 15500,
     imageUrl: '/beatchol.png',
     benefits: ['Enhanced Immunity', 'Antioxidant Support', 'Cellular Protection', 'Faster Recovery'],
@@ -53,10 +53,10 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'bloodkia', 
-    name: 'Bloodkia',
+    id: 'BLOODKIA', 
+    name: 'BLOODKIA',
     category: 'Beauty & Wellness',
-    shortDescription: 'Bloodkia circulates blood in the body and lowers blood fat..',
+    shortDescription: 'BLOODKIA circulates blood in the body and lowers blood fat..',
     price: 15000,
     imageUrl: '/bloodkia.png',
     benefits: ['Radiant Skin', 'Anti-aging Properties', 'Detoxification', 'Improved Skin Elasticity'],
@@ -65,10 +65,10 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'calvitt', 
-    name: 'Calvitt', // Renamed slightly for clarity
+    id: 'CALVITT', 
+    name: 'CALVITT', // Renamed slightly for clarity
     category: 'Herbal Elixir',
-    shortDescription: 'Calvitt gives strong bone and vitamins A, C, and K.',
+    shortDescription: 'CALVITT gives strong bone and vitamins A, C, and K.',
     price: 15000, // Slightly different price for variation
     imageUrl: '/calvit.png', // Reusing image, but ideally unique
     benefits: ['Maximized Immunity', 'Strong Antioxidant Support', 'Advanced Cellular Protection'],
@@ -77,10 +77,10 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'diaberoll', 
-    name: 'Diaberoll', // Renamed slightly for clarity
+    id: 'DIABEROLL', 
+    name: 'DIABEROLL', // Renamed slightly for clarity
     category: 'Beauty & Wellness',
-    shortDescription: 'Diaroll tea reduce sugar level and treat diabetes',
+    shortDescription: 'DIABEROLL tea reduce sugar level and treat diabetes',
     price: 15000, // Slightly different price for variation
     imageUrl: '/diaberoll.png', // Reusing image, but ideally unique
     benefits: ['Exceptional Radiance', 'Potent Anti-aging', 'Deep Detoxification', 'Enhanced Elasticity'],
@@ -89,10 +89,10 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'Eyekia', 
-    name: 'Eyekia', // Renamed slightly for clarity
+    id: 'EYEKIA', 
+    name: 'EYEKIA', // Renamed slightly for clarity
     category: 'Eyes care Herbal Elixir',
-    shortDescription: 'Eyekia treat and prevent glaucoma, cataracts and other eye problems.',
+    shortDescription: 'EYEKIA treat and prevent glaucoma, cataracts and other eye problems.',
     price: 16500, // Different price
     imageUrl: '/eyekia.png', // Reusing image, but ideally unique
     benefits: ['Kids Immunity Support', 'Gentle Formula', 'Delicious Taste'],
@@ -101,8 +101,8 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'feb', 
-    name: 'Feb', // Renamed slightly for clarity
+    id: 'FEB', 
+    name: 'FEB', // Renamed slightly for clarity
     category: 'Beauty & Wellness',
     shortDescription: 'FEB treat weak erection and ejaculation and restores your sexual power.',
     price: 16500, // Different price
@@ -113,8 +113,8 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'fibshrink', 
-    name: 'Fibshrink', // Renamed slightly for clarity
+    id: 'FIBSHRINK', 
+    name: 'FIBSHRINK', // Renamed slightly for clarity
     category: 'Beauty & Wellness',
     shortDescription: 'FIBSHRINK treat and shrink fibroids in women..',
     price: 20000, // Different price
@@ -125,10 +125,10 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'hbalance', 
-    name: 'Hbalance', // Renamed slightly for clarity
+    id: 'HBALANCE', 
+    name: 'HBALANCE', // Renamed slightly for clarity
     category: 'Beauty & Wellness',
-    shortDescription: 'Hbalance, balances female hormones to conceive and their general well-being.',
+    shortDescription: 'HBALANCE, balances female hormones to conceive and their general well-being.',
     price: 17000, // Different price
     imageUrl: '/hbalance.png', // Reusing image, but ideally unique
     benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
@@ -149,8 +149,8 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'kia4small', 
-    name: 'Kia4', // Renamed slightly for clarity
+    id: 'KIA4', 
+    name: 'KIA4', // Renamed slightly for clarity
     category: 'Beauty & Wellness',
     shortDescription: 'KIA4 is a natural supplement to reduce stress. boost energy and memory.',
     price: 10000, // Different price
@@ -161,10 +161,10 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'kingsize', 
-    name: 'Kingsize', // Renamed slightly for clarity
+    id: 'KINGSIZE', 
+    name: 'KINGSIZE', // Renamed slightly for clarity
     category: 'Beauty & Wellness',
-    shortDescription: 'Kingsize, best for penis enlargement.',
+    shortDescription: 'KINGSIZE, best for penis enlargement.',
     price: 21000, // Different price
     imageUrl: '/kingsize.png', // Reusing image, but ideally unique
     benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
@@ -173,10 +173,10 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'livgo', 
-    name: 'Livgo', // Renamed slightly for clarity
+    id: 'LIVGO', 
+    name: 'LIVGO', // Renamed slightly for clarity
     category: 'Beauty & Wellness',
-    shortDescription: 'Livgo treat and cure liver disease and lowers fatty liver..',
+    shortDescription: 'LIVGO treat and cure liver disease and lowers fatty liver..',
     price: 18000, // Different price
     imageUrl: '/livgo.png', // Reusing image, but ideally unique
     benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
@@ -185,8 +185,8 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'mtop', 
-    name: 'mtop', // Renamed slightly for clarity
+    id: 'MTOP', 
+    name: 'MTOP', // Renamed slightly for clarity
     category: 'Beauty & Wellness',
     shortDescription: 'MTOP increases sperm count, quality and motility.',
     price: 21000, // Different price
@@ -197,10 +197,10 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'procly&Tigo', 
-    name: 'Procly and Tigo', // Renamed slightly for clarity
+    id: 'PROCLY&TIGO', 
+    name: 'PROCLY AND TIGO', // Renamed slightly for clarity
     category: 'Beauty & Wellness',
-    shortDescription: 'Procly and Tigo is joined to shrink prostate enlargement and cancer',
+    shortDescription: 'PROCLY AND TIGO is joined to shrink prostate enlargement and cancer',
     price: 35000, // Different price
     imageUrl: '/proclytigo.png', // Reusing image, but ideally unique
     benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
@@ -209,10 +209,10 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'proskiatigo', 
-    name: 'Proskia and Tigo', // Renamed slightly for clarity
+    id: 'PROSKIATIGO', 
+    name: 'PROSKIA AND TIGO', // Renamed slightly for clarity
     category: 'Beauty & Wellness',
-    shortDescription: 'Proskia and Tigo is joined to shrink prostate enlargement and cancer.',
+    shortDescription: 'PROSKIA AND TIGO is joined to shrink prostate enlargement and cancer.',
     price: 35000, // Different price
     imageUrl: '/proskiatigo.png', // Reusing image, but ideally unique
     benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
@@ -221,10 +221,10 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'prosotigo', 
-    name: 'Proso and Tigo', // Renamed slightly for clarity
+    id: 'PROSO&TIGO', 
+    name: 'PROSO AND TIGO', // Renamed slightly for clarity
     category: 'Beauty & Wellness',
-    shortDescription: 'Proso and Tigo is joined to shrink prostate enlargement and cancer.',
+    shortDescription: 'PROSO AND TIGO is joined to shrink prostate enlargement and cancer.',
     price: 35000, // Different price
     imageUrl: '/prosotigo.png', // Reusing image, but ideally unique
     benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
@@ -233,10 +233,10 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'solook', 
-    name: 'Solook', // Renamed slightly for clarity
+    id: 'SOLOOK', 
+    name: 'SOLOOK', // Renamed slightly for clarity
     category: 'Beauty & Wellness',
-    shortDescription: 'Solook, anti aging and increases collagen in the body.',
+    shortDescription: 'SOLOOK, anti aging and increases collagen in the body.',
     price: 17000, // Different price
     imageUrl: '/solook.png', // Reusing image, but ideally unique
     benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
@@ -245,10 +245,10 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'tigosmall', 
-    name: 'Tigo', // Renamed slightly for clarity
+    id: 'TIGO', 
+    name: 'TIGO', // Renamed slightly for clarity
     category: 'Beauty & Wellness',
-    shortDescription: 'Solook, anti aging and increases collagen in the body.',
+    shortDescription: 'TIGO treats and cures staphylococcus, other bacteria infections and boost immunesystem.',
     price: 10000, // Different price
     imageUrl: '/tigosmall.png', // Reusing image, but ideally unique
     benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
@@ -257,10 +257,10 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'top9', 
-    name: 'Top9', // Renamed slightly for clarity
+    id: 'TOP9', 
+    name: 'TOP9', // Renamed slightly for clarity
     category: 'Beauty & Wellness',
-    shortDescription: 'Top9 treat and and cure weak erection and quick ejaculation. restores sexual power in men.',
+    shortDescription: 'TOP9 treat and and cure weak erection and quick ejaculation. restores sexual power in men.',
     price: 15000, // Different price
     imageUrl: '/top9.png', // Reusing image, but ideally unique
     benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
@@ -269,10 +269,10 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'tyle', 
-    name: 'Tyle', // Renamed slightly for clarity
+    id: 'TYLE', 
+    name: 'TYLE', // Renamed slightly for clarity
     category: 'Beauty & Wellness',
-    shortDescription: 'Tyle treat typhoid fever effectively.',
+    shortDescription: 'TYLE treat typhoid fever effectively.',
     price: 2500, // Different price
     imageUrl: '/tyle.png', // Reusing image, but ideally unique
     benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
@@ -281,10 +281,10 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'usrol', 
-    name: 'usrol', // Renamed slightly for clarity
+    id: 'USROL', 
+    name: 'USROL', // Renamed slightly for clarity
     category: 'Beauty & Wellness',
-    shortDescription: 'Usroll treats and prevent all kinds of ulcers.',
+    shortDescription: 'USROL treats and prevent all kinds of ulcers.',
     price: 17000, // Different price
     imageUrl: '/usrol.png', // Reusing image, but ideally unique
     benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
@@ -293,7 +293,7 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'xp', 
+    id: 'XP', 
     name: 'XP', // Renamed slightly for clarity
     category: 'Beauty & Wellness',
     shortDescription: 'XP treat and cure weak erection and quick ejaculation in men. It gives hard erection.',
