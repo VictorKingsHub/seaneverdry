@@ -1,7 +1,7 @@
-// src/components/navbar/Navbar.tsx
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image'; // Import Next.js Image component
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 
@@ -21,12 +21,19 @@ const Navbar = () => {
   ];
 
   return (
-    // Add fixed, top-0, left-0, right-0, and z-50 to the nav element
     <nav className="fixed top-0 left-0 right-0 bg-gray-800 p-4 shadow-md z-50">
       <div className="container mx-auto flex items-center justify-between">
-        {/* Brand/Logo */}
-        <Link href="/" className="text-white text-2xl font-bold hover:text-green-300">
-          Seaneverdry
+        {/* Brand/Logo - Now using Next.js Image */}
+        <Link href="/" className="text-white text-2xl font-bold hover:text-green-300 flex items-center">
+          <Image
+            src="/logologo.jpg" // Path to your logo image in the public folder
+            alt="Seaneverdry Logo" // Alt text for accessibility
+            width={40} // Adjust width as needed
+            height={40} // Adjust height as needed
+            className="rounded-full mr-2" // Optional: add some styling for the image
+          />
+          {/* You can keep the text here if you want both image and text logo, or remove it */}
+          <span className="text-white text-2xl font-bold">Seaneverdry</span>
         </Link>
 
         {/* Mobile menu button (Hamburger icon) - visible on small screens */}
