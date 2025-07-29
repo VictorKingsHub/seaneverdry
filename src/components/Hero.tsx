@@ -11,7 +11,7 @@ const HeroSection = () => {
   // For example, if the path is '/images/hero/image1.png', the file should be in public/images/hero/image1.png
   const heroImages = [
     '/hhh.png', // Image of the capsule jar (corresponding to content_id 54)
-    '/hhh2.png', // Image of the African family with capsules (corresponding to content_id 55)
+    // '/hhh2.png', // Image of the African family with capsules (corresponding to content_id 55)
     '/hhh3.png', // Placeholder for new image #3 (see below)
     '/hhh4.png', // Placeholder for new image #4 (see below)
   ];
