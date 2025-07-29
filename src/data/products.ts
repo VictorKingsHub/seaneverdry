@@ -53,12 +53,12 @@ export const products: Product[] = [
   },
   {
     // Changed ID to be unique
-    id: 'bloodcare', 
-    name: 'Bloodcare',
+    id: 'bloodkia', 
+    name: 'Bloodkia',
     category: 'Beauty & Wellness',
     shortDescription: 'Bloodkia circulates blood in the body and lowers blood fat..',
     price: 15000,
-    imageUrl: '/bloodcare.png',
+    imageUrl: '/bloodkia.png',
     benefits: ['Radiant Skin', 'Anti-aging Properties', 'Detoxification', 'Improved Skin Elasticity'],
     usage: 'Take 10ml daily, can be mixed with your favorite smoothie or juice.',
     ingredients: ['Pure Aloe Vera Gel', 'Hydrolyzed Collagen Peptides', 'Vitamin C', 'Hyaluronic Acid'],
