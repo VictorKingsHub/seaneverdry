@@ -16,7 +16,7 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
   const whatsappLink = `https://wa.me/+2348033913721?text=${whatsappMessage}`;
 
   return (
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+    <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-2xl py-10">
       {/* Product Image */}
       <div className="relative w-full h-64 bg-gray-100 flex items-center justify-center">
         <Image
