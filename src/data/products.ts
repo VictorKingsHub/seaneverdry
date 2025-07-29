@@ -188,7 +188,7 @@ export const products: Product[] = [
     id: 'mtop', 
     name: 'mtop', // Renamed slightly for clarity
     category: 'Beauty & Wellness',
-    shortDescription: '.',
+    shortDescription: 'MTOP increases sperm count, quality and motility.',
     price: 21000, // Different price
     imageUrl: '/mtop.png', // Reusing image, but ideally unique
     benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
