@@ -7,7 +7,7 @@ import Link from 'next/link';
 // Import the products data and interface from the data file
 import { products, Product } from '@/data/products';
 
-// Component for a single product card (this remains unchanged)
+// Component for a single product card
 const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
   // Encode the WhatsApp message
   const whatsappMessage = encodeURIComponent(
@@ -17,13 +17,13 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
 
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-2xl py-10">
-      {/* Product Image */}
-      <div className="relative w-full h-64 bg-gray-100 flex items-center justify-center">
+      {/* Product Image - Increased height here */}
+      <div className="relative w-full h-80 bg-gray-100 flex items-center justify-center"> {/* Changed h-64 to h-80 */}
         <Image
           src={product.imageUrl}
           alt={product.name}
-          layout="fill" // Ensures the image fills the container
-          objectFit="contain" // Keeps the image's aspect ratio, fitting it within the container
+          fill // This prop makes the image fill its parent container
+          style={{ objectFit: 'contain' }} // Apply object-fit as an inline style
           className="p-4" // Adds some internal padding for the image inside the card
         />
       </div>
