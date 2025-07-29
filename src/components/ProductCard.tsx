@@ -30,12 +30,12 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
       {/* Product Details */}
       <div className="p-6">
         <h3 className="text-2xl font-semibold text-gray-900 mb-2">{product.name}</h3>
-        <p className="text-sm text-green-700 font-medium mb-2">{product.category}</p>
-        <p className="text-gray-700 text-base mb-4 line-clamp-3">
+        <p className="text-base text-green-700 font-medium mb-2">{product.category}</p>
+        <p className="text-gray-700 text-lg mb-4 line-clamp-3">
           {product.shortDescription}
         </p>
         <div className="flex justify-between items-center mb-4">
-          <span className="text-green-800 text-xl font-bold">₦{product.price.toLocaleString()}</span>
+          <span className="text-green-800 text-2xl font-bold">₦{product.price.toLocaleString()}</span>
           {/* Link to WhatsApp for ordering */}
           <Link
             href={whatsappLink}
