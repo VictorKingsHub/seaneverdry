@@ -5,10 +5,16 @@ import React, { useState } from 'react'; // Import useState for managing search 
 import Image from 'next/image';
 import Link from 'next/link';
 // Import the products data and interface from the data file
-import { products, Product } from '@/data/products'; 
+import { products, Product } from '@/data/products';
 
 // Component for a single product card (this remains unchanged)
 const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
+  // Encode the WhatsApp message
+  const whatsappMessage = encodeURIComponent(
+    `Hello, I'm interested in ordering the product: ${product.name} (Price: ₦${product.price.toLocaleString()}). Could I get more details?`
+  );
+  const whatsappLink = `https://wa.me/+2348033913721?text=${whatsappMessage}`;
+
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
       {/* Product Image */}
@@ -30,12 +36,14 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
         </p>
         <div className="flex justify-between items-center mb-4">
           <span className="text-green-800 text-xl font-bold">₦{product.price.toLocaleString()}</span>
-          {/* Link to a potential product detail page */}
-          <Link 
-            href={`/products/${product.id}`} // This assumes you'll create dynamic routes like /products/atco-001
+          {/* Link to WhatsApp for ordering */}
+          <Link
+            href={whatsappLink}
+            target="_blank" // Opens in a new tab
+            rel="noopener noreferrer" // Recommended for security when using target="_blank"
             className="bg-green-600 text-white font-bold py-2 px-4 rounded-full text-sm hover:bg-green-700 transition-colors duration-300"
           >
-            View Details
+            Order Now
           </Link>
         </div>
         {/* You could add a quick "Add to Cart" button here if desired */}
@@ -89,8 +97,8 @@ const ProductsPage: React.FC = () => {
         {/* Display products in a responsive grid */}
         {filteredProducts.length === 0 ? (
           <p className="text-center text-gray-600 text-xl">
-            {searchQuery 
-              ? `No products found matching "${searchQuery}".` 
+            {searchQuery
+              ? `No products found matching "${searchQuery}".`
               : 'No products available yet. Please check back soon or add more products to src/data/products.ts.'}
           </p>
         ) : (
