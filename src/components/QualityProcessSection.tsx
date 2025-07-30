@@ -30,7 +30,7 @@ const QualityProcessSection: React.FC = () => {
   ];
 
   return (
-    <section className="py-16 md:py-24 bg-gray-50" id="quality-process">
+    <section className="py-16 md:py-24 bg-white" id="quality-process">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
           Our Unwavering Commitment to <span className="text-green-700">Quality & Purity</span>
@@ -43,7 +43,7 @@ const QualityProcessSection: React.FC = () => {
           {qualitySteps.map((step, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg shadow-lg p-8 transform transition-transform duration-300 hover:scale-105 hover:shadow-xl"
+              className="bg-gradient-to-br from-green-50 to-white rounded-lg shadow-lg p-8 transform transition-transform duration-300 hover:scale-105 hover:shadow-xl"
             >
               <step.icon className="text-green-600 w-12 h-12 mx-auto mb-6" /> {/* Icon component */}
               <h3 className="text-xl font-semibold text-gray-900 mb-3">{step.title}</h3>
