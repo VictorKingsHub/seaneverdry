@@ -18,7 +18,7 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-2xl py-10">
       {/* Product Image - Increased height here */}
-      <div className="relative w-full h-96 bg-gray-100 flex items-center justify-center"> {/* Changed h-80 to h-96 */}
+      <div className="relative w-full h-96  flex items-center justify-center bg-gradient-to-br from-green-100 to-green-50"> {/* Changed h-80 to h-96 */}
         <Image
           src={product.imageUrl}
           alt={product.name}
