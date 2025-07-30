@@ -18,7 +18,7 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
       {/* Product Image */}
-      <div className="relative w-full h-64 bg-gray-100 flex items-center justify-center">
+      <div className="relative w-full h-64 bg-gradient-to-br from-green-100 to-green-50 flex items-center justify-center">
         <Image
           src={product.imageUrl}
           alt={product.name}
@@ -59,7 +59,7 @@ const FeaturedProducts: React.FC = () => {
   const featuredItems = products.slice(0, 4); 
 
   return (
-    <section className="py-16 bg-gradient-to-br from-white to-green-50">
+    <section className="py-16 bg-white">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">
           Our Featured Herbal Products

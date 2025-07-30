@@ -33,7 +33,7 @@ const benefits = [
 
 const WhyChooseUsSection: React.FC = () => {
   return (
-    <section className="py-16 bg-gradient-to-br from-green-50 to-white" id="why-choose-us">
+    <section className="py-16 bg-white" id="why-choose-us">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
           Why Choose SeaNeverDry?
@@ -42,11 +42,11 @@ const WhyChooseUsSection: React.FC = () => {
           Discover the core values and unique advantages that set SeaNeverDry apart in your journey towards natural wellness.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 ">
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg shadow-xl p-8 flex flex-col items-center text-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+              className="bg-gradient-to-br from-green-50 to-white rounded-lg shadow-xl p-8 flex flex-col items-center text-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
             >
               {/* React-icons components are rendered directly */}
               {benefit.icon && (

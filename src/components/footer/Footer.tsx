@@ -38,9 +38,9 @@ const Footer: React.FC = () => {
         {/* Contact Information */}
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">Contact Us</h3>
-          <p className="text-sm">Email: <a href="mailto:info@seaneverdry.com" className="hover:text-white">info@seaneverdry.com</a></p>
-          <p className="text-sm mt-2">Phone: <a href="tel:+2348001234567" className="hover:text-white">+234 800 123 4567</a></p>
-          <p className="text-sm mt-2">Address: 123 Wellness Rd, Lagos, Nigeria</p> {/* Example placeholder address */}
+          <p className="text-sm">Email: <a href="mailto:seaneverdrynatural@gmail.com" className="hover:text-white">seaneverdrynatural@gmail.com</a></p>
+          <p className="text-sm mt-2">Phone: <a href="tel:+2348121718772" className="hover:text-white">+234 812 171 8772</a></p>
+          <p className="text-sm mt-2">Address: 1 UKE STREET AREA 11 GARKI ABUJA</p> {/* Example placeholder address */}
         </div>
 
         {/* Social Media */}

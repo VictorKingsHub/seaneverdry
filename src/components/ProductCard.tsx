@@ -18,7 +18,7 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
       {/* Product Image - Increased height here */}
-      <div className="relative w-full h-80  flex items-center justify-center bg-gradient-to-br from-green-100 to-green-50"> {/* Changed h-80 to h-96 */}
+      <div className="relative w-full h-80  flex items-center justify-center bg-gradient-to-br from-green-50 to-green-50"> {/* Changed h-80 to h-96 */}
         <Image
           src={product.imageUrl}
           alt={product.name}
@@ -73,7 +73,7 @@ const ProductsPage: React.FC = () => {
   });
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 to-white py-16">
+    <div className="min-h-screen bg-white py-16">
       <div className="container mx-auto px-4">
         <h1 className="text-5xl md:text-6xl font-extrabold text-center text-gray-900 mb-6">
           Our Herbal Collection
