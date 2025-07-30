@@ -16,9 +16,9 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
   const whatsappLink = `https://wa.me/+2348033913721?text=${whatsappMessage}`;
 
   return (
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-2xl py-3">
+    <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
       {/* Product Image - Increased height here */}
-      <div className="relative w-full h-96  flex items-center justify-center bg-gradient-to-br from-green-100 to-green-50"> {/* Changed h-80 to h-96 */}
+      <div className="relative w-full h-80  flex items-center justify-center bg-gradient-to-br from-green-100 to-green-50"> {/* Changed h-80 to h-96 */}
         <Image
           src={product.imageUrl}
           alt={product.name}
@@ -28,7 +28,7 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
         />
       </div>
       {/* Product Details */}
-      <div className="p-6">
+      <div className="px-6 py-3">
         <h3 className="text-2xl font-semibold text-gray-900 mb-2">{product.name}</h3>
         <p className="text-base text-green-700 font-medium mb-2">{product.category}</p>
         <p className="text-gray-700 text-lg mb-4 line-clamp-3">
