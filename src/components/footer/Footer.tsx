@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 // Import social media icons from react-icons/fa
-import { FaFacebook} from 'react-icons/fa'; 
+import { FaFacebook, FaWhatsapp} from 'react-icons/fa'; 
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear(); // Dynamically get the current year
@@ -39,6 +39,10 @@ const Footer: React.FC = () => {
           <h3 className="text-lg font-semibold text-white mb-4">Contact Us</h3>
           <p className="text-sm">Email: <a href="mailto:seaneverdrynatural@gmail.com" className="hover:text-white">seaneverdrynatural@gmail.com</a></p>
           <p className="text-sm mt-2">Phone: <a href="tel:+2348121718772" className="hover:text-white">+234 812 171 8772</a></p>
+                      <a href="https://wa.me/2348033913721" target="_blank" rel="noopener noreferrer" className=" hover:text-green-800 transition-colors duration-200 text-lg flex items-center">
+                        <FaWhatsapp className="mr-2" /> +234 803 391 3721 (WhatsApp)
+                      </a>
+
           <p className="text-sm mt-2">Address: 1 UKE STREET AREA 11 GARKI ABUJA</p> {/* Example placeholder address */}
         </div>
 
