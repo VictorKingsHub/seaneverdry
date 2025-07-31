@@ -31,7 +31,7 @@ const ProductPageCtaSection: React.FC = () => {
                        shadow-lg hover:bg-green-700 hover:scale-105 transition-all duration-300
                        focus:outline-none focus:ring-4 focus:ring-green-300 focus:ring-opacity-75"
           >
-            Chat with Us on WhatsApp
+            Ready to Order?
           </Link>
           {/* Button to Contact Page for more general inquiries */}
           <Link

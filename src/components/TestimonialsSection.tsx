@@ -4,23 +4,37 @@ import { FaQuoteLeft } from 'react-icons/fa';
 const testimonials = [
   {
     id: 1,
-    name: 'Aisha K.',
-    location: 'Lagos, Nigeria',
-    review: 'SeaNeverDry\'s ATCO has truly transformed my energy levels. I feel revitalized and focused throughout the day. Highly recommend for anyone looking for a natural boost!',
+    name: 'Tofa.',
+    location: 'Abuja, Nigeria',
+    review: 'SThank you very much your product TIGO. It was recommended to me and my wife by our family friend who used and was cured of his chronic bacteria infections. It also boosted his immune system. And now we have enjoyed the same benefits too',
     rating: 5,
   },
   {
     id: 2,
-    name: 'Mark T.',
-    location: 'London, UK',
-    review: 'The CALVIT tea is my new evening ritual. It helps me unwind after a stressful day and tastes absolutely delightful. A must-have for relaxation.',
+    name: 'Victor.',
+    location: 'PH',
+    review: 'I saw your herbal product TOP9 online and I decided to give it a try. And wow it gave me exactly what I wanted in sex. Now I can last as long as I want with my partner in bed. Thank you.',
     rating: 5,
   },
   {
     id: 3,
-    name: 'Chika E.',
-    location: 'Abuja, Nigeria',
-    review: 'I have been using K19 for months, and I have noticed a significant improvement in my overall immunity. It is a natural way to stay healthy.',
+    name: 'Juliet',
+    location: ' Abuja',
+    review: 'I got your product name ASHCORD through a pharmacist who asked me to try and get it for my husband who had stroke for the past 5 years now and quiet frankly after taking it for 3 months now we have seen lots of differences in his health. He has so much improved. No more emergency. Thank you for ASHCORD',
+    rating: 4,
+  },  
+  {
+    id: 4,
+    name: 'Yemi',
+    location: ' Lagos',
+    review: 'Thank you for your herbal product EYEKIA. I have got my vision back. God bless you.',
+    rating: 4,
+  },
+  {
+    id: 4,
+    name: 'Chioma,',
+    location: ' Abia',
+    review: 'HBALANCE is a good product. I got pregnant after using it for 4 months it balanced my hormones.',
     rating: 4,
   }
 ];

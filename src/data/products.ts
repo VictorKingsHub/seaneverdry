@@ -13,8 +13,8 @@ export const products: Product[] = [
     {
     id: 'TIGO', 
     name: 'TIGO',
-    shortDescription: 'TIGO treats and cures staphylococcus, other bacteria infections and boost immunesystem.',
-    price: 10000, 
+    shortDescription: 'TIGO treat and cure Staphylococcus, other chronic bacteria infections and boost body immune system.',
+    price: 16000, 
     imageUrl: '/tigo.png', 
     benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
     usage: 'Take 10ml daily, ideal for those with sensitive digestive systems.',
@@ -103,7 +103,7 @@ export const products: Product[] = [
   {
     id: 'DIABEROLL', 
     name: 'DIABEROLL',
-    shortDescription: 'DIABEROLL tea reduce sugar level and treat diabetes',
+    shortDescription: 'DIABEROLL reduce sugar level and treat diabetes',
     price: 15000, 
     imageUrl: '/diaberoll.png', 
     benefits: ['Exceptional Radiance', 'Potent Anti-aging', 'Deep Detoxification', 'Enhanced Elasticity'],
@@ -173,8 +173,8 @@ export const products: Product[] = [
   {
     id: 'KIA4', 
     name: 'KIA4', 
-    shortDescription: 'KIA4 is a natural supplement to reduce stress. boost energy and memory.',
-    price: 10000, 
+    shortDescription: 'KIA4 boost memory, and reduces stress.',
+    price: 12000, 
     imageUrl: '/kia4.png', 
     benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
     usage: 'Take 10ml daily, ideal for those with sensitive digestive systems.',

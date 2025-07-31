@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 // Import social media icons from react-icons/fa
-import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa'; 
+import { FaFacebook} from 'react-icons/fa'; 
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear(); // Dynamically get the current year
@@ -49,12 +49,7 @@ const Footer: React.FC = () => {
             <a href="https://www.facebook.com/profile.php?id=61578385040999&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-200">
               <FaFacebook size={24} />
             </a>
-            {/* <a href="https://instagram.com/seaneverdry" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-200">
-              <FaInstagram size={24} />
-            </a>
-            <a href="https://twitter.com/seaneverdry" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-200">
-              <FaTwitter size={24} />
-            </a> */}
+          
           </div>
         </div>
 
