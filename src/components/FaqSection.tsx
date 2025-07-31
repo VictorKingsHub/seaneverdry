@@ -37,7 +37,7 @@ const FaqSection = () => {
               Do you offer free delivery Nationwide?
             </AccordionTrigger>
             <AccordionContent className="text-base md:text-lg text-gray-700"> {/* Adjusted text color for contrast */}
-             No, We do not offer free delivery Nationwide but only to Abuja( inside city) Lagos ( lkeja) and owerri.  <br />Thank you.
+             No. We do not offer free delivery Nationwide but only to few locations Abuja ( Inside city), Lagos ( ikeja ,ogba and Berger) Asaba and Onitsha
             </AccordionContent>
           </AccordionItem>
 
