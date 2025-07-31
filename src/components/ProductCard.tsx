@@ -11,7 +11,7 @@ import { products, Product } from '@/data/products';
 const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
   // Encode the WhatsApp message
   const whatsappMessage = encodeURIComponent(
-    `Hello I am interested in your herbal product : ${product.name} (which costs: ₦${product.price.toLocaleString()}). Please send me your company's account to make payment. Thank you.`
+    `Hello I am interested in your herbal product : ${product.name} which costs: ₦${product.price.toLocaleString()}. Please send me your company's account to make payment. Thank you.`
   );
   const whatsappLink = `https://wa.me/+2348033913721?text=${whatsappMessage}`;
 
