@@ -15,7 +15,7 @@ const ProductPageCtaSection: React.FC = () => {
     <section className="bg-white text-gray-800 py-16 md:py-24" id="products-cta">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
-          Still Have Questions or Ready to Order?
+          Ready to Order?
         </h2>
         <p className="text-lg md:text-xl max-w-3xl mx-auto mb-10 opacity-90">
           Our team is here to help you find the perfect herbal solution for your needs. Reach out for personalized advice or to place your order directly.
