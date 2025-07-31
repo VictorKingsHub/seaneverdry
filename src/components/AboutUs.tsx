@@ -30,10 +30,10 @@ const AboutUsSection: React.FC = () => {
               The Journey to <span className="text-green-600">Natural Wellness</span>
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              At **SeaNeverDry**, our journey began with a profound belief in the healing power of nature. Witnessing the struggles of many seeking holistic health solutions, we set out to bridge the gap between ancient herbal wisdom and modern wellness needs.
+             AT **SEANEVERDRY** our journey began with a profound belief of our CEO/chairman mazi Darlington Chimdi Onykwere in the healing power of Nature. Witnessing the struggles of many seeking holistic health solutions. He set out with his company Sea Never Dry Services Ventures to bridge the gap between ancient herbal wisdom and modern wellness needs. He searched the globe with his company&apos;s team to find a very reputable manufacturing herbal company to partner with.
             </p>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              We meticulously source the finest natural ingredients, crafting each product with precision and care to ensure purity, potency, and effectiveness. Our commitment is to empower individuals to live healthier, more vibrant lives through sustainable and trustworthy herbal remedies.
+               A company who meticulously can source  finest natural ingredients, crafting each product with precision and care to ensure purity , potency and effectiveness. And finally RIGIRX HEALTHCARE NIGERIA was born to be in sole partnership with SEA NEVER DRY SERVICES VENTURES as it&apos;s  marketing company.
             </p>
             {/* Optional Call to Action */}
             <Link

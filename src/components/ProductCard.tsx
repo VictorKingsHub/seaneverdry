@@ -30,7 +30,6 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
       {/* Product Details */}
       <div className="px-6 py-3">
         <h3 className="text-2xl font-semibold text-gray-900 mb-2">{product.name}</h3>
-        <p className="text-base text-green-700 font-medium mb-2">{product.category}</p>
         <p className="text-gray-700 text-lg mb-4 line-clamp-3">
           {product.shortDescription}
         </p>
