@@ -8,6 +8,11 @@ import { FaFacebook, FaWhatsapp } from "react-icons/fa";
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear(); // Dynamically get the current year
 
+  // Define the WhatsApp message here
+  const whatsappMessage = encodeURIComponent(
+    "Hello, SeaNeverDry, I got to you through your website. Can I know more about your products"
+  );
+
   return (
     <footer className="bg-gray-800 text-gray-300 py-12">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -81,8 +86,9 @@ const Footer: React.FC = () => {
               +234 812 171 8772
             </a>
           </p>
+          {/* Updated WhatsApp link with the new message */}
           <a
-            href="https://wa.me/2348033913721"
+            href={`https://wa.me/2348033913721?text=${whatsappMessage}`}
             target="_blank"
             rel="noopener noreferrer"
             className=" hover:text-green-800 transition-colors duration-200 text-lg flex items-center"
@@ -90,7 +96,7 @@ const Footer: React.FC = () => {
             <FaWhatsapp className="mr-2" /> +234 803 391 3721 (WhatsApp)
           </a>
           <p className="text-sm mt-2">
-            Address: 1 UKE STREET AREA 11 GARKI ABUJA
+            Address: 1 UKE STREET AREA 11 GARKI ABUJA
           </p>{" "}
           {/* Example placeholder address */}
         </div>
@@ -109,6 +115,7 @@ const Footer: React.FC = () => {
             >
               <FaFacebook size={24} />
             </a>
+            {/* The build warnings about FaInstagram and FaTwitter being unused still apply if you don't add them here */}
           </div>
         </div>
       </div>
