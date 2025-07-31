@@ -30,7 +30,6 @@ const Footer: React.FC = () => {
             {/* These links assume you will have corresponding pages */}
             <li><Link href="/products" className="hover:text-white transition-colors duration-200">Products</Link></li>
             <li><Link href="/about" className="hover:text-white transition-colors duration-200">About Us</Link></li>
-            <li><Link href="/testimonials" className="hover:text-white transition-colors duration-200">Testimonials</Link></li>
             <li><Link href="/contact" className="hover:text-white transition-colors duration-200">Contact</Link></li>
           </ul>
         </div>
