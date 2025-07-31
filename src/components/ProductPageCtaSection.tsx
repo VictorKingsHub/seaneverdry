@@ -5,6 +5,11 @@ import Link from 'next/link';
 import React from 'react';
 
 const ProductPageCtaSection: React.FC = () => {
+  // Define the WhatsApp message with the added text
+  const whatsappMessage = encodeURIComponent(
+    "Hello, I have a question about your products. I am checking on the products through the brand's website : www.seaneverdry.com.ng"
+  );
+
   return (
     // Background is white as requested
     <section className="bg-white text-gray-800 py-16 md:py-24" id="products-cta">
@@ -18,7 +23,8 @@ const ProductPageCtaSection: React.FC = () => {
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
           {/* Button to WhatsApp for direct contact/ordering */}
           <Link
-            href="https://wa.me/+2348033913721?text=Hello%2C%20I%20have%20a%20question%20about%20your%20products."
+            // Use the constructed whatsappMessage variable here
+            href={`https://wa.me/+2348033913721?text=${whatsappMessage}`}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-600 text-white font-bold py-3 px-8 rounded-full text-lg md:text-xl
