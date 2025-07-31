@@ -50,12 +50,12 @@ const Footer: React.FC = () => {
             <a href="https://www.facebook.com/profile.php?id=61578385040999&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-200">
               <FaFacebook size={24} />
             </a>
-            <a href="https://instagram.com/seaneverdry" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-200">
+            {/* <a href="https://instagram.com/seaneverdry" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-200">
               <FaInstagram size={24} />
             </a>
             <a href="https://twitter.com/seaneverdry" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-200">
               <FaTwitter size={24} />
-            </a>
+            </a> */}
           </div>
         </div>
 
