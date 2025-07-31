@@ -15,7 +15,7 @@ export const products: Product[] = [
     name: 'TIGO', 
     shortDescription: 'TIGO treats and cures staphylococcus, other bacteria infections and boost immunesystem.',
     price: 10000, 
-    imageUrl: '/tigosmall.png', 
+    imageUrl: '/tigo.png', 
     benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
     usage: 'Take 10ml daily, ideal for those with sensitive digestive systems.',
     ingredients: ['Pure Aloe Vera Gel', 'Chamomile Extract', 'Hyaluronic Acid', 'Green Tea Polyphenols'],

@@ -64,8 +64,6 @@ const ProductsPage: React.FC = () => {
       product.name.toLowerCase().includes(lowerCaseQuery) ||
       // Search by short description
       product.shortDescription.toLowerCase().includes(lowerCaseQuery) ||
-      // Search by category
-      product.category.toLowerCase().includes(lowerCaseQuery) ||
       // Search by ingredients (checks if any ingredient includes the query)
       product.ingredients.some(ingredient => ingredient.toLowerCase().includes(lowerCaseQuery))
     );
@@ -85,7 +83,7 @@ const ProductsPage: React.FC = () => {
         <div className="mb-12 max-w-lg mx-auto"> {/* Centering the search bar */}
           <input
             type="text"
-            placeholder="Search products by name, description, category, or ingredient..."
+            placeholder="Search products by name, description, or ingredient..." // Updated placeholder
             className="w-full p-3 pl-4 border border-gray-300 rounded-full shadow-sm focus:ring-green-500 focus:border-green-500 text-gray-800 outline-none"
             value={searchQuery} // Binds the input value to the state
             onChange={(e) => setSearchQuery(e.target.value)} // Updates state on change
