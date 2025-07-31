@@ -43,7 +43,7 @@ const HeroSection = () => {
             The Home of Herbal <span className="text-green-700"> Products </span>
           </h1>
           <p className="text-lg md:text-xl text-gray-700 mb-8 max-w-lg mx-auto md:mx-0 font-bold">
-            When People are concerned about their health, they talk to us
+            When People are concerned about their health, they visit our website to select their needs
           </p>
 
           {/* Call to Action Button */}

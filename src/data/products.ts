@@ -12,7 +12,7 @@ export interface Product {
 export const products: Product[] = [
     {
     id: 'TIGO', 
-    name: 'TIGO', 
+    name: 'TIGO',
     shortDescription: 'TIGO treats and cures staphylococcus, other bacteria infections and boost immunesystem.',
     price: 10000, 
     imageUrl: '/tigo.png', 
@@ -23,7 +23,7 @@ export const products: Product[] = [
    {
     id: 'USROLL', 
     name: 'USROLL',
-    shortDescription: 'USROL treats and prevent all kinds of ulcers.',
+    shortDescription: 'USROLL treat and prevent all kinds of ulcers.',
     price: 17000, 
     imageUrl: '/usrol.png',
     benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
@@ -61,8 +61,8 @@ export const products: Product[] = [
     ingredients: ['Chamomile Flowers', 'Lavender Buds', 'Lemon Balm Leaves', 'Valerian Root'],
   },
   {
-    id: 'ATCO',
-    name: 'ATCO',
+    id: 'DIAROLLTEA',
+    name: 'DIAROLL TEA',
     shortDescription: 'DIAROLL tea reduce sugar level and treat diabetes.',
     price: 11000,
     imageUrl: '/diarolltea.png',
@@ -121,9 +121,19 @@ export const products: Product[] = [
     ingredients: ['Elderberry', 'Vitamin C', 'Zinc', 'Natural Fruit Flavors'],
   },
   {
+    id: 'MARA', 
+    name: 'MARA', 
+    shortDescription: 'MARA cures malaria fast.',
+    price: 2500, 
+    imageUrl: '/mara.png', 
+    benefits: ['Kids Immunity Support', 'Gentle Formula', 'Delicious Taste'],
+    usage: 'For children 2-12 years, take 5ml once daily.',
+    ingredients: ['Elderberry', 'Vitamin C', 'Zinc', 'Natural Fruit Flavors'],
+  },
+  {
     id: 'FEB', 
     name: 'FEB', 
-    shortDescription: 'FEB treat weak erection and ejaculation and restores your sexual power.',
+    shortDescription: 'FEB treat weak erection and quick ejaculation and restore man''s sexual power.',
     price: 16500, 
     imageUrl: '/feb.png',
     benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
@@ -193,8 +203,8 @@ export const products: Product[] = [
   {
     id: 'MTOP', 
     name: 'MTOP', 
-    shortDescription: 'MTOP increases sperm count, quality and motility.',
-    price: 21000, 
+    shortDescription: 'MTOP increases sperm count, quantity, quality and motility.',
+    price: 15500, 
     imageUrl: '/mtop.png', 
     benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
     usage: 'Take 10ml daily, ideal for those with sensitive digestive systems.',
