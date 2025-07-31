@@ -6,7 +6,7 @@ const testimonials = [
     id: 1,
     name: 'Tofa.',
     location: 'Abuja, Nigeria',
-    review: 'SThank you very much your product TIGO. It was recommended to me and my wife by our family friend who used and was cured of his chronic bacteria infections. It also boosted his immune system. And now we have enjoyed the same benefits too',
+    review: 'Thank you very much your product TIGO. It was recommended to me and my wife by our family friend who used it and was cured of his chronic bacteria infections. It also boosted his immune system. And now we have enjoyed the same benefits too',
     rating: 5,
   },
   {
