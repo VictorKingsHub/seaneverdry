@@ -34,10 +34,10 @@ const FaqSection = () => {
 
           <AccordionItem value="item-2">
             <AccordionTrigger className="text-lg md:text-xl font-medium text-gray-800 hover:text-gray-900 data-[state=open]:text-green-700"> {/* Adjusted text color for contrast */}
-              Do you offer free delivery within Nigeria?
+              Do you offer free delivery Nationwide?
             </AccordionTrigger>
             <AccordionContent className="text-base md:text-lg text-gray-700"> {/* Adjusted text color for contrast */}
-              Yes we offer free delivery within Nigeria.
+             No we don&apos;t offer free delivery Nationwide but we do to some few locations
             </AccordionContent>
           </AccordionItem>
 
