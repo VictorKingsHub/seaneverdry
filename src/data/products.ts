@@ -130,7 +130,17 @@ export const products: Product[] = [
     usage: 'For children 2-12 years, take 5ml once daily.',
     ingredients: ['Elderberry', 'Vitamin C', 'Zinc', 'Natural Fruit Flavors'],
   },
-  {
+    {
+    id: 'TYLE', 
+    name: 'TYLE',
+    shortDescription: 'TYLE treat typhoid fever effectively.',
+    price: 2500, 
+    imageUrl: '/tyle.png', 
+    benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
+    usage: 'Take 10ml daily, ideal for those with sensitive digestive systems.',
+    ingredients: ['Pure Aloe Vera Gel', 'Chamomile Extract', 'Hyaluronic Acid', 'Green Tea Polyphenols'],
+  },
+   {
     id: 'FEB', 
     name: 'FEB', 
     shortDescription: 'FEB treat weak erection and quick ejaculation and restore man\'s sexual power.',
@@ -250,17 +260,6 @@ export const products: Product[] = [
     usage: 'Take 10ml daily, ideal for those with sensitive digestive systems.',
     ingredients: ['Pure Aloe Vera Gel', 'Chamomile Extract', 'Hyaluronic Acid', 'Green Tea Polyphenols'],
   },
-  {
-    id: 'TYLE', 
-    name: 'TYLE',
-    shortDescription: 'TYLE treat typhoid fever effectively.',
-    price: 2500, 
-    imageUrl: '/tyle.png', 
-    benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
-    usage: 'Take 10ml daily, ideal for those with sensitive digestive systems.',
-    ingredients: ['Pure Aloe Vera Gel', 'Chamomile Extract', 'Hyaluronic Acid', 'Green Tea Polyphenols'],
-  },
- 
   {
     id: 'XP', 
     name: 'XP', 
