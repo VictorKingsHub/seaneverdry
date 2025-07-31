@@ -11,7 +11,7 @@ import { products, Product } from '@/data/products'; // Import your full product
 // if you use it in many places, but for now, we'll keep it here for clarity)
 const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
   const whatsappMessage = encodeURIComponent(
-    `Hello, I am interested in ${product.name}, which costs ₦${product.price.toLocaleString()}. I would like to know more.`
+    `Hello, I am interested in your herbal product: ${product.name} which costs ₦${product.price.toLocaleString()}. Please send me your company\'s account to make payment.  Thank you.`
   );
   const whatsappLink = `https://wa.me/2348033913721?text=${whatsappMessage}`; 
 
