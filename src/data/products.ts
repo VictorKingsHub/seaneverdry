@@ -216,7 +216,7 @@ export const products: Product[] = [
     id: 'K-10', 
     name: 'K-10',
     shortDescription: 'K-10 , treat kidney diseases',
-    price: 16000, 
+    price: 17000, 
     imageUrl: '/K10.png', 
     benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
     usage: 'Take 10ml daily, ideal for those with sensitive digestive systems.',
