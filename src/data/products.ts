@@ -64,7 +64,7 @@ export const products: Product[] = [
     id: 'DOUBLEKINGSIZE ', 
     name: '2 KINGSIZE', 
     shortDescription: 'KINGSIZE, best for penis enlargement.',
-    price: 21000,
+    price: 40000,
     imageUrl: '/doublekingsize.png',
     benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
     usage: 'Take 10ml daily, ideal for those with sensitive digestive systems.',
