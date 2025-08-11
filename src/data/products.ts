@@ -22,7 +22,7 @@ export const products: Product[] = [
   },
     {
     id: 'doubletigo', 
-    name: '2 TIGO',
+    name: '2 Packs of TIGO',
     shortDescription: 'TIGO treat and cure Staphylococcus, other chronic bacteria infections and boost body immune system.',
     price: 30000, 
     imageUrl: '/doubletigo.png', 
@@ -72,7 +72,7 @@ export const products: Product[] = [
   },
     {
     id: 'DOUBLEKINGSIZE ', 
-    name: '2 KINGSIZE', 
+    name: '2 packs of KINGSIZE', 
     shortDescription: 'KINGSIZE, best for penis enlargement.',
     price: 40000,
     imageUrl: '/doublekingsize.png',
