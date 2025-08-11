@@ -44,7 +44,7 @@ export const products: Product[] = [
     id: 'XP', 
     name: 'XP', 
     shortDescription: 'XP treat and cure weak erection and quick ejaculation in men. It gives hard erection.',
-    price: 16000, 
+    price: 16500, 
     imageUrl: '/xp.png',
     benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
     usage: 'Take 10ml daily, ideal for those with sensitive digestive systems.',
