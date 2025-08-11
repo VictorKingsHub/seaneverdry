@@ -61,16 +61,6 @@ export const products: Product[] = [
     ingredients: ['Pure Aloe Vera Gel', 'Chamomile Extract', 'Hyaluronic Acid', 'Green Tea Polyphenols'],
   },
     {
-    id: 'KINGSIZE', 
-    name: 'KINGSIZE', 
-    shortDescription: 'KINGSIZE, best for penis enlargement.',
-    price: 21000,
-    imageUrl: '/kingsize.png',
-    benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
-    usage: 'Take 10ml daily, ideal for those with sensitive digestive systems.',
-    ingredients: ['Pure Aloe Vera Gel', 'Chamomile Extract', 'Hyaluronic Acid', 'Green Tea Polyphenols'],
-  },
-    {
     id: 'DOUBLEKINGSIZE ', 
     name: '2 Packs of KINGSIZE', 
     shortDescription: 'KINGSIZE, best for penis enlargement.',
