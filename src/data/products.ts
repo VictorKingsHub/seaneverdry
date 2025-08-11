@@ -20,6 +20,16 @@ export const products: Product[] = [
     usage: 'Take 10ml daily, ideal for those with sensitive digestive systems.',
     ingredients: ['Pure Aloe Vera Gel', 'Chamomile Extract', 'Hyaluronic Acid', 'Green Tea Polyphenols'],
   },
+    {
+    id: 'doubletigo', 
+    name: '2 TIGO',
+    shortDescription: 'TIGO treat and cure Staphylococcus, other chronic bacteria infections and boost body immune system.',
+    price: 30000, 
+    imageUrl: '/doubletigo.png', 
+    benefits: ['Hypoallergenic', 'Soothing Hydration', 'Natural Radiance'],
+    usage: 'Take 10ml daily, ideal for those with sensitive digestive systems.',
+    ingredients: ['Pure Aloe Vera Gel', 'Chamomile Extract', 'Hyaluronic Acid', 'Green Tea Polyphenols'],
+  },
    {
     id: 'USROLL', 
     name: 'USROLL',
