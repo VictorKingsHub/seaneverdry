@@ -72,7 +72,7 @@ export const products: Product[] = [
   },
     {
     id: 'DOUBLEKINGSIZE ', 
-    name: '2 packs of KINGSIZE', 
+    name: '2 Packs of KINGSIZE', 
     shortDescription: 'KINGSIZE, best for penis enlargement.',
     price: 40000,
     imageUrl: '/doublekingsize.png',
