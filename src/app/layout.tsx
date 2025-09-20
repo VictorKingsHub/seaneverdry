@@ -16,12 +16,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Seaneverdry",
+  title: "Seaneverdry Natural",
   description: "The Home of Herbal Products",
   icons: {
-    icon: "/logologo.jpg", 
+    icon: "/logo.png", 
   },
-  // Add the Google site verification tag here
+  // Google site verification tag
   verification: {
     google: "bhUFwSbUCHdmt0Cige2gxPiqc0G3za-voFicKbUaUco",
   },
