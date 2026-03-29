@@ -33,7 +33,7 @@ const benefits = [
 
 const WhyChooseUsSection: React.FC = () => {
   return (
-    <section className="py-16 bg-white" id="why-choose-us">
+    <section className="py-16 bg-white " id="why-choose-us">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
           Why Choose SeaNeverDry?
