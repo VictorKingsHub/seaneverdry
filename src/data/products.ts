@@ -175,7 +175,7 @@ export const products: Product[] = [
   //   id: 'MARA', 
   //   name: 'MARA', 
   //   shortDescription: 'MARA cures malaria fast.',
-  //   price: 2500, 
+  //   price: 25000, 
   //   imageUrl: '/mara.png', 
   //   benefits: ['Kids Immunity Support', 'Gentle Formula', 'Delicious Taste'],
   //   usage: 'For children 2-12 years, take 5ml once daily.',
