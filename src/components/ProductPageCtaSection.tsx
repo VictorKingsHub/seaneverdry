@@ -5,7 +5,7 @@ import Link from 'next/link';
 import React from 'react';
 
 const ProductPageCtaSection: React.FC = () => {
-  // Define the WhatsApp message with the added text
+  // WhatsApp message with the added text
   const whatsappMessage = encodeURIComponent(
     "Hello, I have a question about your products. I am checking on the products through the brand's website : www.seaneverdry.com.ng"
   );
